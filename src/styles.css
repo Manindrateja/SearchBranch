@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.branchname {
+	white-space: nowrap;
+}
+th.mat-header-cell{
+	white-space: nowrap;
+	padding-right: 10px !important;
+	text-transform: capitalize;
+}
+td.mat-cell {
+	padding: 0px 5px !important;
+}
+td.mat-cell:first-of-type{
+	padding-left: 24px;
+}
